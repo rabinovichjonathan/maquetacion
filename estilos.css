@@ -1,0 +1,56 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+html{
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+}
+#contenedor{
+    width:85%;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+.header{
+    background-color: cornflowerblue;
+    color: white;
+    height: 50px;
+    margin-top: 15px;
+}
+.logo{
+   text-transform: uppercase;
+   
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar{
+    background-color:darkblue;
+    height:15px;
+    color:white;
+    
+    margin-top:10px;
+}
+.navbar ul{
+    list-style-type: none;
+    text-align: right;
+}    
+.navbar ul li a{
+    text-decoration: none;
+    text-align: right;
+    display:block;
+    color:white;
+    font-size: 15px;
+}    
+.navbar ul li a :hover{
+    background: red;
+    color:black;
+}
